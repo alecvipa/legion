@@ -1,0 +1,20 @@
+.footer{
+    height: 7rem;
+    color: wheat;
+    margin-top: 5%;
+    padding-top: 2%;
+    text-align: center;
+}
+.header{
+    height: 9rem;
+    color: wheat;
+    padding-top: 2%;
+    text-align: center;
+
+}
+.specialEliteFont{
+    font-family: 'Special Elite', cursive;
+}
+.inicioDiv{
+    margin-top: 3%;
+}
