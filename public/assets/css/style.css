@@ -17,4 +17,14 @@
 }
 .inicioDiv{
     margin-top: 3%;
+    width: 60%;
+    margin-left: 20%;
+    text-align: justify;
+}
+.formInscribe{
+    width: 60%;
+    margin-left: 20%;
+}
+.inscribeBtn{
+    margin-top: 2%;
 }
