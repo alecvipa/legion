@@ -36,8 +36,8 @@ app.set("view engine", "handlebars");
 app.get('/', function (req, res) {
     res.render('inicio')
 });
-app.get('/bases', function (req, res) {
-    res.render('bases')
+app.get('/inscribe', function (req, res) {
+    res.render('inscribe')
 });
 // app.get('/:params?', function (req, res) {
 //     var params = req.params.params;
