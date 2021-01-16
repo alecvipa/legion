@@ -63,30 +63,45 @@
 </div>
 <div class="formInscribe">
     <h3 class="specialEliteFont">Cuota de inscripción: $2,600.00 MXN</h3>
-    <form action="/ajax/email" method="POST" onsubmit="return submitEmailForm(this);">
+    <form action="/ajax/email" method="POST" onsubmit="return submitEmailForm(this);" class="trans1">
         <div class="form-group">
             <label for="exampleFormControlInput1">Nombre y apellidos</label>
-            <input type="name" name="name" class="form-control formInput" id="exampleFormControlInput1" placeholder="Ana Camarena Ramírez"
-                required>
+            <input type="name" name="name" class="form-control formInput" id="exampleFormControlInput1"
+                placeholder="Ana Camarena Ramírez" required>
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Fecha de nacimiento</label>
-            <input type="text" name="birthDate" class="form-control formInput" id="exampleFormControlInput1" placeholder="10/10/1994" required>
+            <input type="text" name="birthDate" class="form-control formInput" id="exampleFormControlInput1"
+                placeholder="10/10/1994" required>
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Teléfono de contacto</label>
-            <input type="text" name="tel" class="form-control formInput" id="exampleFormControlInput1" placeholder="5550966628" required>
+            <input type="text" name="tel" class="form-control formInput" id="exampleFormControlInput1"
+                placeholder="5550966628" required>
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Correo electrónico</label>
-            <input type="email" name="email" class="form-control formInput" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"
-                required>
+            <input type="email" name="email" class="form-control formInput" id="exampleFormControlInput1"
+                placeholder="nombre@ejemplo.com" required>
         </div>
         <div class="custom-control custom-checkbox my-1 mr-sm-2">
-            <input type="checkbox" name="checkBox" class="custom-control-input formInput" id="customControlInline" required>
-            <label class="custom-control-label" for="customControlInline">Acepto las condiciones de participación. <span
-                    class="specialEliteFont">No se hará ningún reembolso de la cuota de inscripción.</span> </label>
+            <input type="checkbox" name="checkBox" class="custom-control-input formInput" id="customControlInline"
+                required>
+            <label class="custom-control-label" for="customControlInline">Acepto términos y condiciones de
+                participación; también política de privacidad. <span class="specialEliteFont">No se hará ningún
+                    reembolso de la cuota de inscripción.</span></label>
         </div>
-        <button type="submit" class="btn btn-dark">INSCRIBIRME</button>
+        <button type="submit" class="btn btn-dark btnSubmitForm">INSCRIBIRME</button>
     </form>
+    <div class="ligaPago trans2">
+        <div class="jumbotron">
+            <h1 class="display-4 specialEliteFont pagarTitle">Bienvenido a la Legión, joven escritor.</h1>
+            <p class="lead text-justify">Terminar Inscripción</p>
+            <hr class="my-4">
+            <p class="text-justify">Te pedimos que guardes el recibo de pago, en caso de que hubiera un problema.</p>
+            <p class="lead">
+                <a class="btn btn-lg btn-dark btnPagar blink" href="https://mpago.la/2ALPr5i" role="button">Pagar</a>
+            </p>
+        </div>
+    </div>
 </div>

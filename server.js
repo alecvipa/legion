@@ -35,11 +35,14 @@ app.set("view engine", "handlebars");
 // Routes
 app.get('/', function (req, res) {
     res.render('inicio')
-})
-app.get('/:params?', function (req, res) {
-    var params = req.params.params;
-    res.render(params);
-})
+});
+app.get('/bases', function (req, res) {
+    res.render('bases')
+});
+// app.get('/:params?', function (req, res) {
+//     var params = req.params.params;
+//     res.render(params);
+// })
 app.post("/ajax/email", function (request, response) {
     console.log(email);
     const transporter = nodemailer.createTransport({
