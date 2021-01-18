@@ -12,6 +12,9 @@
     text-align: center;
 
 }
+.pointer{
+    cursor: pointer;
+}
 .specialEliteFont{
     font-family: 'Special Elite', cursive;
 }
@@ -41,6 +44,9 @@
 }
 .btnPagar{
     color: wheat;
+}
+.avisoPrivacidadDiv{
+    margin-top: 5%;
 }
 
 @media (min-width: 401px) and (max-width: 768px) {
