@@ -6,10 +6,13 @@
     <meta name="description" content="Descubriendo nuevos autores" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Convocatoria Legión</title>
+    {{!--
     <!-- Global site tag (gtag.js) - Google Ads: 477005585 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-477005585"></script>
     <script> window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'AW-477005585'); </script>
-    <!-- Event snippet for Contacto conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. --> <script> function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-477005585/HihJCOL-8u8BEJGOuuMB', 'event_callback': callback }); return false; } </script>
+    <!-- Event snippet for Contacto conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script> function gtag_report_conversion(url) { var callback = function () { if (typeof (url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-477005585/HihJCOL-8u8BEJGOuuMB', 'event_callback': callback }); return false; } </script>
+    --}}
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
@@ -46,6 +49,15 @@
             $(".formInput").val(" ");
             return false;
         }
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-87D6SRFJWF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-87D6SRFJWF');
     </script>
 
 </head>
