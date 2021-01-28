@@ -96,7 +96,7 @@ app.post("/ajax/contactform", function (request, response) {
     });
 
     var textBody = `FROM: ${request.body.name}; EMAIL: ${request.body.email}; MESSAGE: ${request.body.message}`;
-    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p><p>Número de contacto:${request.body.number}</p>`;
+    var htmlBody = `<h2>Correo de contacto</h2><p>Nombre: ${request.body.name} </p><p> Correo electrónico: <a href='mailto: ${request.body.email}'>${request.body.email}</a></p>`;
     var mail = {
         from: '"Team: Alejandro Vilpa',
         to: 'hebrit_626@hotmail.com',
