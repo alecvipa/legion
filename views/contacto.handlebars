@@ -1,0 +1,33 @@
+<div class="contactoDiv">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="jumbotron jumbotron-fluid text-center">
+                    <div class="container">
+                        <h1 class="display-4 titleContactoCerca">¡Estás muy cerca!</h1>
+                        <p class="lead">Llena el formulario y nos comunicaremos contigo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <form action="/ajax/contactform" method="POST" onsubmit="return contactForm(this);">
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Nombre y apellidos</label>
+                        <input type="text" name="name" class="form-control formInput" id="exampleInputPassword1" placeholder="Escribe tu nombre y apellidos">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Correo electrónico</label>
+                        <input type="email" name="email" class="form-control formInput" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Escribe tu correo electrónico">
+                        <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie más.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Teléfono celular</label>
+                        <input type="text" name="tel" class="form-control formInput" id="exampleInputPassword1" placeholder="Escribe tu número telefónico a 10 dígitos">
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
