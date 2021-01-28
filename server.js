@@ -42,6 +42,9 @@ app.get('/inscribe', function (req, res) {
 app.get('/avisoDePrivacidad', function (req, res) {
     res.render('privacidad');
 });
+app.get('/contacto', function (req, res) {
+    res.render('contacto');
+});
 // app.get('/:params?', function (req, res) {
 //     var params = req.params.params;
 //     res.render(params);
